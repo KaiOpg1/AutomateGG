@@ -64,8 +64,8 @@ async def simuliere_sitzung(token, index, headless):
         print(f"[Skipped] Token gesperrt für weitere {hours_left} Stunden.")
         return
     
-    chrome_profile_path = f"C:\\Users\\shaii\\Desktop\\ChromeDebugProfile_{index}"
-    chrome_path = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
+    chrome_profile_path = f"C:\\Users\\USERNAME\\Desktop\\ChromeDebugProfile_{index}" # Dein Username hier eintragen.
+    chrome_path = r"C:\Program Files\Google\Chrome\Application\chrome.exe" # Hier dein Chrome path
     
     startupinfo = subprocess.STARTUPINFO()
     startupinfo.dwFlags |= subprocess.STARTF_USESHOWWINDOW
