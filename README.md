@@ -31,5 +31,13 @@ Bash
 pip install -r requirements.txt
 playwright install chromium
 
+📋 To-Do & Roadmap
+Aktueller Stand der Entwicklung:
 
-📋 To-Do & RoadmapHier ist der aktuelle Stand der Entwicklung:[ ] Proxy-Integration: Implementierung der Authentifizierung für den BASE_PROXY im Chrome-Startbefehl.  [ ] Konfigurations-Datei: Auslagern von Pfaden und Einstellungen in eine config.json statt hart codierter Werte.  [ ] Captcha-Handling: Integration einer Lösung für Captcha-Herausforderungen, falls diese den Vote-Prozess blockieren.  [ ] Dynamische Pfade: Umstellung der Profil-Pfade auf os.path.join, um die Portabilität auf anderen Systemen zu gewährleisten.  
+[ ] Proxy-Integration: Implementierung der Authentifizierung für BASE_PROXY im Chrome-Startbefehl.
+
+[ ] Konfigurations-Datei: Auslagern von Pfaden/Einstellungen in eine config.json (statt Hardcode).
+
+[ ] Captcha-Handling: Lösung für Captcha-Herausforderungen bei Blockaden.
+
+[ ] Dynamische Pfade: Umstellung auf os.path.join für volle Betriebssystem-Portabilität.
