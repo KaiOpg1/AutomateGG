@@ -24,7 +24,7 @@ Repository klonen:
 
 Bash
 git clone https://github.com/KaiOpg1/AutomateGG.git
-cd discord-automator
+cd AutomateGG
 Abhängigkeiten installieren:
 
 Bash
